@@ -84,6 +84,8 @@ ipr_enrichment <- k_tbl %>%
 ipr_sig <- ipr_enrichment %>% # NONE PASS FDR-ADJUSTED P-VALUE CUTOFF!!!!!!
   dplyr::filter(pval < 0.05)
 
+goid <- ipr %>% dplyr::distinct(IPR_accession, GO)
+
 ipr_sig_gene_collapsed <- ipr %>%
   dplyr::filter(IPR_accession %in% ipr_sig$IPR_accession) %>%
   dplyr::group_by(IPR_accession) %>%
@@ -98,7 +100,9 @@ ipr_sig_gene_collapsed <- ipr %>%
   dplyr::arrange(`p-value`) %>%
   dplyr::rename(`Number of genes in QTL with specific IPR annotation` = n_genes_QTL, `Genes in QTL with specific IPR annotation` = genes_QTL, 
                 `Number of genes with specific IPR annotation in entire genome` = n_genes_all, `Genes in the genome with specific IPR annotation` = genes_all,
-                `All genes in QTL with any IPR annotation` = n, `All genes in the entire genome with any IPR annotation` = N)
+                `All genes in QTL with any IPR annotation` = n, `All genes in the entire genome with any IPR annotation` = N) %>%
+  dplyr::left_join(goid, by = "IPR_accession") %>%
+  dplyr::rename(`IPR accession` = IPR_accession, `IPR description` = IPR_description, `Gene Ontology ID` = GO)
 
 # Save a table
 write.table(ipr_sig_gene_collapsed, "../../tables/supplementary/IPR_enrichment_QTL.tsv", row.names = F, col.names = T, sep = "\t")
