@@ -1,6 +1,6 @@
 # Processed Data
 
-This directory contains processed datasets, GWAS results, genomic resources, and supplementary data used in the *Caenorhabditis briggsae* fecundity manuscript.
+This directory contains processed datasets, GWAS results, and genomic resources used in the *Caenorhabditis briggsae* fecundity manuscript.
 
 ## Directory Structure
 
@@ -17,7 +17,7 @@ processed_data/
 ├── day4_262strains_GWASmapping.tsv
 ├── day5_262strains_GWASmapping.tsv
 │
-├── tableS1.tsv
+
 │
 ├── functional_enrichment/
 │   └── QX1410_IPR_annotations.tsv
@@ -38,7 +38,7 @@ processed_data/
 └── README.md
 ```
 
-## 1. Processed Fecundity Datasets
+### Processed  Datasets
 
 These files contain processed fecundity measurements and datasets used for GWAS mapping and related analyses.
 
@@ -51,7 +51,7 @@ These files contain processed fecundity measurements and datasets used for GWAS 
 - `262strains_avgBS_A3567_4_1_gwasmapping.tsv`
   - Processed average fecundity dataset for  262 strains used in  GWAS mapping.
 
-## 2. Daily GWAS Mapping Datasets
+### Daily GWAS Mapping Datasets
 
 These files contain the datasets used for GWAS mapping of fecundity measurements across the five reproductive days in the 262-strain panel.
 
@@ -61,12 +61,7 @@ These files contain the datasets used for GWAS mapping of fecundity measurements
 - `day4_262strains_GWASmapping.tsv`
 - `day5_262strains_GWASmapping.tsv`
 
-## 3. Supplementary Data
-
-- `tableS1.tsv`
-  - Supplementary Table 1 containing supporting data for the manuscript.
-
-## 4. NemaScan GWAS Results
+### NemaScan GWAS Results
 
 The `nemascan/` directory contains GWAS results generated using NemaScan for fecundity-associated traits in the 262-strain mapping panel.
 
@@ -75,29 +70,27 @@ Each analysis directory contains relevant GWAS outputs and supporting files, inc
 ### Analysis directories
 
 - `20260903_1/`
-  - Earlier GWAS analysis of average fecundity (avg_BS).
-  - Includes inbred and leave-one-chromosome-out (LOCO) GWAS results, QTL summaries, and fine-mapping results.
+  - GWAS analysis of average fecundity of 262 strains.
 
 - `20261008_262strains_day1/`
-  - GWAS analysis of day 1 fecundity.
+  - GWAS analysis of day 1 fecundity of 262 strains.
 
 - `20261008_262strains_day2/`
-  - GWAS analysis of day 2 fecundity.
+  - GWAS analysis of day 2 fecundity of 262 strains.
 
 - `20261008_262strains_day3/`
-  - GWAS analysis of day 3 fecundity, including fine-mapping results.
+  - GWAS analysis of day 3 fecundity of 262 strains.
 
 - `20261008_262strains_day4/`
-  - GWAS analysis of day 4 fecundity, including fine-mapping results.
+  - GWAS analysis of day 4 fecundity of 262 strains.
 
 - `20261008_262strains_day5/`
-  - GWAS analysis of day 5 fecundity, including fine-mapping results.
+  - GWAS analysis of day 5 fecundity of 262 strains.
 
 - `20261115_262strains_repday_1_2/`
-  - GWAS analysis of the combined replicate-day 1 and day 2 trait (`dayof_D50_bin`).
+  - GWAS analysis of peak reproductive day of 262 strains.
 
-
-## 5. Genomic Resources
+### Genomic Resources
 
 The `genomic_resources/` directory contains genomic annotation and protein sequence resources for the *C. briggsae* QX1410 reference genome.
 
@@ -107,7 +100,7 @@ The `genomic_resources/` directory contains genomic annotation and protein seque
 - `c_briggsae.QX1410_20250929.csq.longest.nomito.prot.fa`
   - FASTA file containing the longest protein isoform per gene, excluding mitochondrial proteins.
 
-## 6. Functional Enrichment
+### Functional Enrichment
 
 The `functional_enrichment/` directory contains protein functional annotation data used for functional characterization and enrichment analyses.
 
