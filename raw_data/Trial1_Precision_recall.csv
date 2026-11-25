@@ -1,0 +1,61 @@
+Strain,Assay_Day_Replicate,BIP_count_total,true_positive_label,true_positive_lawn,true_positive_rest,true_positive_total,false_positive_label,false_positive_lawn,false_positive_rest,false_positive_total,false_negative_label,false_negative_lawn,BIP_false_negative_rest,BIP_false_negative_total,Precision_label,Recall_label,Precision_lawn,Recall_lawn,Precision_rest,Recall_rest,Precision_total,Recall_total,Notes
+ECA2666,A3_D1_R1,91,4,34,57,95,0,0,0,0,2,4,5,11,1.00,0.67,1.00,0.89,1.00,0.92,1.00,0.90,
+ECA2666,A3_D1_R3,34,2,12,25,39,0,0,0,0,0,1,4,5,1.00,1.00,1.00,0.92,1.00,0.86,1.00,0.89,
+ED3102,A3_D1_R2,74,12,21,42,75,0,0,0,0,2,0,2,4,1.00,0.86,1.00,1.00,1.00,0.95,1.00,0.95,
+ED3102,A3_D1_R3,114,15,27,81,123,1,0,0,1,2,2,9,13,0.94,0.88,1.00,0.93,1.00,0.90,0.99,0.90,
+JU3237,A3_D1_R1,68,4,19,48,71,0,0,0,0,2,5,2,9,1.00,0.67,1.00,0.79,1.00,0.96,1.00,0.89,
+JU3237,A3_D1_R5,49,5,24,24,53,1,1,0,2,3,3,9,15,0.83,0.63,0.96,0.89,1.00,0.73,0.96,0.78,most of the false positives on the rest of the plate (7 out of 9) were outside the green outline
+NIC1667,A3_D1_R1,94,12,12,75,99,0,0,0,0,2,3,11,16,1.00,0.86,1.00,0.80,1.00,0.87,1.00,0.86,9 of the 11 false positive on the rest of the plate were outside the green line
+NIC1667,A3_D1_R3,79,10,29,42,81,1,0,0,1,3,0,0,3,0.91,0.77,1.00,1.00,1.00,1.00,0.99,0.96,
+PB420,A3_D1_R1,60,0,62,6,68,0,0,0,0,0,7,1,8,#DIV/0!,#DIV/0!,1.00,0.90,1.00,0.86,1.00,0.89,
+PB420,A3_D1_R5,86,0,92,3,95,2,0,1,3,0,12,0,12,0.00,#DIV/0!,1.00,0.88,0.75,1.00,0.97,0.89,
+VX34,A3_D1_R1,76,4,25,48,77,0,0,2,2,0,2,3,5,1.00,1.00,1.00,0.93,0.96,0.94,0.97,0.94,
+VX34,A3_D1_R4,81,6,27,50,83,1,0,0,1,2,2,1,5,0.86,0.75,1.00,0.93,1.00,0.98,0.99,0.94,
+ECA2666,A3_D2_R2,64,5,24,38,67,0,0,1,1,1,0,5,6,1.00,0.83,1.00,1.00,0.97,0.88,0.99,0.92,all 5 false negative outside the green line. the 1 false positive outside the green line (both for rest of the plate)
+ECA2666,A3_D2_R5,42,4,7,31,42,1,0,0,1,1,0,1,2,0.80,0.80,1.00,1.00,1.00,0.97,0.98,0.95,the 1 false negative for rest of the plate is outside the green line
+ED3102,A3_D2_R1,43,8,5,32,45,0,0,0,0,1,0,2,3,1.00,0.89,1.00,1.00,1.00,0.94,1.00,0.94,the 2 false negatives for rest of the plate are outside the green line
+ED3102,A3_D2_R7,60,7,2,52,61,0,0,3,3,0,0,4,4,1.00,1.00,1.00,1.00,0.95,0.93,0.95,0.94,the 4 false negatives for rest of the plate are outside the green line. one of the three false positive for the rest of the plate is outside the green line
+JU3237,A3_D2_R6,76,2,18,56,76,0,0,0,0,0,2,4,6,1.00,1.00,1.00,0.90,1.00,0.93,1.00,0.93,1 of 4 false negative for rest of the plate is outside the green line
+JU3237,A3_D2_R8,47,8,7,35,50,0,1,1,2,3,0,3,6,1.00,0.73,0.88,1.00,0.97,0.92,0.96,0.89,the 3 false negatives for rest of the plate are outside the green line. one of the three false positive for the rest of the plate is outside the green line
+NIC1667,A3_D2_R5,88,12,27,56,95,0,1,0,1,1,4,5,10,1.00,0.92,0.96,0.87,1.00,0.92,0.99,0.90,the 5 false negatives for rest of the plate are outside the green line. one of the three false positive for the rest of the plate is outside the green line
+NIC1667,A3_D2_R8,108,11,23,80,114,0,0,0,0,3,0,1,4,1.00,0.79,1.00,1.00,1.00,0.99,1.00,0.97,
+PB420,A3_D2_R5,81,0,68,14,82,0,0,1,1,0,5,0,5,#DIV/0!,#DIV/0!,1.00,0.93,0.93,1.00,0.99,0.94,
+PB420,A3_D2_R6,86,5,24,69,98,0,0,0,0,0,1,8,9,1.00,1.00,1.00,0.96,1.00,0.90,1.00,0.92,6 of the 8 false negatives for rest of the plate are outside thegreen line
+VX34,A3_D2_R3,95,0,36,63,99,0,0,0,0,0,2,2,4,#DIV/0!,#DIV/0!,1.00,0.95,1.00,0.97,1.00,0.96,
+VX34,A3_D2_R5,85,1,37,46,84,0,0,0,0,0,0,1,1,1.00,1.00,1.00,1.00,1.00,0.98,1.00,0.99,
+ECA2666,A3_D3_R4,31,1,4,28,33,2,0,0,2,0,2,0,2,0.33,1.00,1.00,0.67,1.00,1.00,0.94,0.94,
+ECA2666,A3_D3_R5,9,1,3,5,9,1,0,0,1,0,0,0,0,0.50,1.00,1.00,1.00,1.00,1.00,0.90,1.00,
+ED3102,A3_D3_R3,6,1,0,5,6,0,0,0,0,0,0,1,1,1.00,1.00,#DIV/0!,#DIV/0!,1.00,0.83,1.00,0.86,the 1 false negative for rest of the plate is outside thegreen outline. This plate is contaminated
+ED3102,A3_D3_R4,14,1,2,13,16,0,0,0,0,0,0,2,2,1.00,1.00,1.00,1.00,1.00,0.87,1.00,0.89,the 2 false negative for rest of the plate are outside thegreen outline. 
+JU3237,A3_D3_R5,4,2,1,1,4,0,0,1,1,0,0,0,0,1.00,1.00,1.00,1.00,0.50,1.00,0.80,1.00,
+JU3237,A3_D3_R7,16,1,3,13,17,0,0,1,1,2,1,3,6,1.00,0.33,1.00,0.75,0.93,0.81,0.94,0.74,the 3 false negative for rest of the plate are outside thegreen outline. 
+NIC1667,A3_D3_R5,33,0,5,27,32,0,0,1,1,0,0,2,2,#DIV/0!,#DIV/0!,1.00,1.00,0.96,0.93,0.97,0.94,
+NIC1667,A3_D3_R8,13,1,0,2,3,3,0,6,9,0,0,0,0,0.25,1.00,#DIV/0!,#DIV/0!,0.25,1.00,0.25,1.00,
+PB420,A3_D3_R1,33,0,28,4,32,1,0,0,1,0,1,0,1,0.00,#DIV/0!,1.00,0.97,1.00,1.00,0.97,0.97,
+PB420,A3_D3_R2,25,3,6,19,28,0,0,0,0,0,0,3,3,1.00,1.00,1.00,1.00,1.00,0.86,1.00,0.90,the 3 false negative for rest of the plate are outside thegreen outline. 
+VX34,A3_D3_R6,16,0,9,7,16,0,0,0,0,0,0,1,1,#DIV/0!,#DIV/0!,1.00,1.00,1.00,0.88,1.00,0.94,
+VX34,A3_D3_R8,23,2,3,18,23,0,0,0,0,0,0,0,0,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,
+ECA2666,A3_D4_R1,11,1,5,0,6,0,0,5,5,0,0,0,0,1.00,1.00,1.00,1.00,0.00,#DIV/0!,0.55,1.00,
+ECA2666,A3_D4_R4,36,1,2,3,6,4,0,26,30,0,1,0,1,0.20,1.00,1.00,0.67,0.10,1.00,0.17,0.86,lots of bacteria tracks - making the software think as worm tracks
+ED3102,A3_D4_R4,19,1,1,3,5,3,0,11,14,0,0,0,0,0.25,1.00,1.00,1.00,0.21,1.00,0.26,1.00,lots of bacteria tracks - making the software think as worm tracks
+ED3102,A3_D4_R6,11,0,0,0,0,6,0,5,11,0,0,0,0,0.00,#DIV/0!,#DIV/0!,#DIV/0!,0.00,#DIV/0!,0.00,#DIV/0!,lots of bacteria tracks - making the software think as worm tracks
+JU3237,A3_D4_R1,25,0,11,14,25,0,0,0,0,0,0,0,0,#DIV/0!,#DIV/0!,1.00,1.00,1.00,1.00,1.00,1.00,
+JU3237,A3_D4_R7,18,0,0,1,1,2,0,15,17,0,0,0,0,0.00,#DIV/0!,#DIV/0!,#DIV/0!,0.06,1.00,0.06,1.00,lots of bacteria tracks - making the software think as worm tracks
+NIC1667,A3_D4_R1,37,0,0,0,0,8,0,28,36,0,0,0,0,0.00,#DIV/0!,#DIV/0!,#DIV/0!,0.00,#DIV/0!,0.00,#DIV/0!,lots of bacteria tracks - making the software think as worm tracks
+NIC1667,A3_D4_R2,24,0,0,1,1,2,0,20,22,0,0,0,0,0.00,#DIV/0!,#DIV/0!,#DIV/0!,0.05,1.00,0.04,1.00,lots of bacteria tracks - making the software think as worm tracks
+PB420,A3_D4_R2,14,0,1,0,1,2,0,11,13,0,0,0,0,0.00,#DIV/0!,1.00,1.00,0.00,#DIV/0!,0.07,1.00,lots of bacteria tracks - making the software think as worm tracks
+PB420,A3_D4_R6,26,2,12,12,26,0,0,0,0,0,0,0,0,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,
+VX34,A3_D4_R1,12,0,5,4,9,0,0,4,4,0,0,0,0,#DIV/0!,#DIV/0!,1.00,1.00,0.50,1.00,0.69,1.00,lots of bacteria tracks - making the software think as worm tracks
+VX34,A3_D4_R6,2,0,1,0,1,0,0,1,1,0,0,0,0,#DIV/0!,#DIV/0!,1.00,1.00,0.00,#DIV/0!,0.50,1.00,
+ECA2666,A3_D5_R2,3,0,1,1,2,0,0,1,1,0,0,0,0,#DIV/0!,#DIV/0!,1.00,1.00,0.50,1.00,0.67,1.00,
+ECA2666,A3_D5_R3,51,0,1,1,2,2,1,46,49,0,0,0,0,0.00,#DIV/0!,0.50,1.00,0.02,1.00,0.04,1.00,lots of bacteria tracks - making the software think as worm tracks
+ED3102,A3_D5_R5,15,0,0,1,1,4,0,10,14,0,0,0,0,0.00,#DIV/0!,#DIV/0!,#DIV/0!,0.09,1.00,0.07,1.00,
+ED3102,A3_D5_R7,7,1,3,3,7,0,0,0,0,0,0,0,0,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,"this plate has tracks too. but if there are worms, it does not seem to focus on them."
+JU3237,A3_D5_R5,32,0,0,1,1,10,0,21,31,0,0,0,0,0.00,#DIV/0!,#DIV/0!,#DIV/0!,0.05,1.00,0.03,1.00,lots of bacteria tracks - making the software think as worm tracks
+JU3237,A3_D5_R7,29,1,0,0,1,5,1,19,25,0,0,0,0,0.17,1.00,0.00,#DIV/0!,0.00,#DIV/0!,0.04,1.00,lots of bacteria tracks - making the software think as worm tracks
+NIC1667,A3_D5_R5,9,0,1,0,1,5,0,3,8,0,0,0,0,0.00,#DIV/0!,1.00,1.00,0.00,#DIV/0!,0.11,1.00,lots of bacteria tracks - making the software think as worm tracks
+NIC1667,A3_D5_R8,14,0,0,1,1,8,0,6,14,0,0,0,0,0.00,#DIV/0!,#DIV/0!,#DIV/0!,0.14,1.00,0.07,1.00,
+PB420,A3_D5_R4,22,0,1,0,1,7,1,14,22,0,0,0,0,0.00,#DIV/0!,0.50,1.00,0.00,#DIV/0!,0.04,1.00,
+PB420,A3_D5_R5,13,0,0,1,1,0,0,12,12,0,0,0,0,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,0.08,1.00,0.08,1.00,
+VX34,A3_D5_R1,2,1,0,2,3,0,0,0,0,0,0,0,0,1.00,1.00,#DIV/0!,#DIV/0!,1.00,1.00,1.00,1.00,no tracks on the plate. so a clean analysis. no false positives
+VX34,A3_D5_R3,2,0,0,0,0,1,0,1,2,0,0,0,0,0.00,#DIV/0!,#DIV/0!,#DIV/0!,0.00,#DIV/0!,0.00,#DIV/0!,

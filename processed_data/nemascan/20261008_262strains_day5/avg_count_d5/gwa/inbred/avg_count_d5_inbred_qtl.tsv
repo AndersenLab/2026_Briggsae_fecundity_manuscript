@@ -1,0 +1,2 @@
+CHROM	marker	log10p	startPOS	peakPOS	endPOS	peak_id	method	trait
+IV	IV:4334765	5.781155	3205908	4334765	5862506	1	inbred	avg_count_d5

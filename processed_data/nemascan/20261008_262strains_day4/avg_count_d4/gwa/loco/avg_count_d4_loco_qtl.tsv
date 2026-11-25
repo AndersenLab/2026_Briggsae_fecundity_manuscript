@@ -1,0 +1,2 @@
+CHROM	marker	log10p	startPOS	peakPOS	endPOS	peak_id	method	trait
+X	X:7886528	6.3732452	6245189	7886528	18159901	1	loco	avg_count_d4

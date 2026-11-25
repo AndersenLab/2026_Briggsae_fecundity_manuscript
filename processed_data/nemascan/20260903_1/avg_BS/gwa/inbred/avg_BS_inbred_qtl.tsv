@@ -1,0 +1,2 @@
+CHROM	marker	log10p	startPOS	peakPOS	endPOS	peak_id	method	trait
+X	X:16163640	5.954967	14531153	16163640	18159901	1	inbred	avg_BS
